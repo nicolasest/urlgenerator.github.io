@@ -27,7 +27,7 @@ function copiarResultadoAlPortapapeles() {
     // Copiar al portapapeles usando el API de Clipboard
     navigator.clipboard.writeText(resultado)
         .then(function() {
-            alert("Texto copiado al portapapeles: " + resultado);
+            alert("Texto copiado al portapapeles");
         })
         .catch(function(err) {
             console.error('Error al intentar copiar al portapapeles: ', err);
@@ -40,7 +40,7 @@ function copiarResultadoAlPortapapeles2() {
     // Copiar al portapapeles usando el API de Clipboard
     navigator.clipboard.writeText(resultado)
         .then(function() {
-            alert("Texto copiado al portapapeles: " + resultado);
+            alert("Texto copiado al portapapeles");
         })
         .catch(function(err) {
             console.error('Error al intentar copiar al portapapeles: ', err);
