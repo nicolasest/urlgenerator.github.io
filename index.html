@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="replaceString.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Url generator</title>
+</head>
+
+<body>
+   
+    <div class="container">
+    <div class="appContainer">
+        <input type="text" autocomplete="off" tabindex="0" aria-label="Nombre" value="" dir="ltr" autofocus=""
+            id="searchInput">
+
+        <button onclick='clickButton()' id="boton">Generate links</button>
+       
+    </div>
+    <div class="results">
+    <div class="res">
+        <p id="resultado"></p> <button onclick='copiarResultadoAlPortapapeles()' id="botonCopiar">Copy url</button> <br>
+       
+    </div>
+    <div class="res">
+        <p id="resultado2"></p> <button onclick='copiarResultadoAlPortapapeles2()' id="botonCopiar">Copy url</button> <br>
+       
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
